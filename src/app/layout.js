@@ -13,8 +13,8 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "t a g o W o r k s - Website Template",
-  description: "A template of the tagoWorks website",
+  title: "Lumina - A Website Template",
+  description: "A template that was used for the tagoWorks website. Created by tago.",
 };
 
 export default function RootLayout({ children }) {

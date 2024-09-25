@@ -143,6 +143,28 @@ export default function Home() {
             <p className="text-lg sm:text-xl max-w-2xl mx-auto text-gray-300">
               This is probably where your description would go for what kinda things you do
             </p>
+            <div className="flex justify-center space-x-4 mt-6">
+              <motion.button
+                className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-4 rounded-lg font-semibold transition-colors duration-300 ease-in-out text-lg"
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                animate={{
+                  scale: [1, 1.05, 1],
+                  boxShadow: [
+                    "0 0 0 0 rgba(147, 51, 234, 0)",
+                    "0 0 0 15px rgba(147, 51, 234, 0.3)",
+                    "0 0 0 30px rgba(147, 51, 234, 0)"
+                  ],
+                }}
+                transition={{
+                  duration: 2,
+                  repeat: Infinity,
+                  repeatType: "loop"
+                }}
+              >
+                Pulsating Hero Button
+              </motion.button>
+            </div>
           </section>
 
           <SectionSeparator />
