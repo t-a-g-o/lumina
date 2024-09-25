@@ -13,7 +13,7 @@ import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/24/solid";
 import { SiJavascript} from "react-icons/si";
 import { CommandLineIcon } from "@heroicons/react/24/solid";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { FaGithub, FaTwitter, FaTiktok, FaYoutube, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaTwitter, FaTiktok, FaYoutube, FaLinkedin, FaEnvelope, FaFileDownload } from 'react-icons/fa';
 
 export default function Home() {
   const [scope, animate] = useAnimate();
@@ -57,6 +57,8 @@ export default function Home() {
     {
       name: "John Doe",
       role: "Software Engineer",
+      // Add a full raw link to your resume
+      resume : "https://www.sec.gov/jobs/sample-resume/sample-resume.pdf",
       // add pictures to the "public" directory
       avatar: "/johndoe.jpg",
       bio: "Experienced software engineer with a passion for machine learning and artificial intelligence.",
@@ -71,6 +73,7 @@ export default function Home() {
     {
       name: "Jane Smith",
       role: "Data Scientist",
+      resume : "",
       avatar: "janesmith.jpg",
       bio: "Data scientist with expertise in data visualization and statistical modeling.",
       github: "janesmith",
@@ -282,7 +285,7 @@ export default function Home() {
                   </div>
                 </div>
                 <p className="text-sm text-gray-400 mt-4">{member.bio}</p>
-                <div className="mt-4 flex space-x-3">
+                <div className="mt-4 flex flex-wrap items-center gap-3">
                   {member.mailto && (
                     <a href={`mailto:${member.mailto}`}>
                       <FaEnvelope className="text-gray-400 hover:text-white transition-colors" />
@@ -311,6 +314,16 @@ export default function Home() {
                   {member.linkedin && (
                     <a href={`https://linkedin.com/in/${member.linkedin}`} target="_blank" rel="noopener noreferrer">
                       <FaLinkedin className="text-gray-400 hover:text-white transition-colors" />
+                    </a>
+                  )}
+                  {member.resume && (
+                    <a 
+                      href={member.resume}
+                      download
+                      className="ml-auto flex items-center bg-gray-700 hover:bg-gray-600 text-purple-300 hover:text-purple-200 px-3 py-1 rounded text-sm transition-colors duration-200 border border-gray-600"
+                    >
+                      <FaFileDownload className="mr-2" />
+                      Download Resume
                     </a>
                   )}
                 </div>
