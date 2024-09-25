@@ -12,12 +12,11 @@ Created by [@t-a-g-o](https://github.com/t-a-g-o)
 * [License and Contact](#license-and-contact)
 
 ## Technologies Used
-- Next.js
-- Tailwind CSS
-- JavaScript
-- React
-- Shadcn
-- MagicUI
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![SHADCN](https://img.shields.io/badge/shadcn/ui-000000?style=for-the-badge&logo=shadcn/ui&logoColor=white)
 
 ## Features
 - **Responsive Design:** Looks great on desktop, tablet, and mobile devices
