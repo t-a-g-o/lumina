@@ -65,9 +65,9 @@ export default function JoinTeam() {
                   height={18}
                   className="mr-2"
                 />
-                <h1 className="text-3xl font-bold bg-clip-text">tago.Works</h1>
+                <h1 className="text-3xl font-bold bg-clip-text">Lumina</h1>
               </div>
-              <span className="text-xs text-gray-400 mt-1 ml-16">by, Santiago Billeci</span>
+              <span className="text-xs text-gray-400 mt-1 ml-16">a website template</span>
             </div>
             <div className="flex items-center space-x-4 opacity-0" style={{ transform: "translateX(50px)" }}>
               <Link href="/" passHref>
