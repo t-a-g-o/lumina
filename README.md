@@ -50,6 +50,7 @@ Created by [@t-a-g-o](https://github.com/t-a-g-o)
     ```sh
     npm run dev
     ```
+To make a favicon show in the browser, add an icon image to `src/app/`. It has to be "ico" format and it has to be named "favicon.ico".  Make the icon 256x256 if possible, this is the most visible and detailed icon in the browser.
 
 ## License and Contact
 This project is published under the [MIT License](./LICENSE)
