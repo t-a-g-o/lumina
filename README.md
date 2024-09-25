@@ -8,13 +8,8 @@ Created by [@t-a-g-o](https://github.com/t-a-g-o)
 * [Technologies Used](#technologies-used)
 * [Features](#features)
 * [Screenshots](#screenshots)
-* [Setup](#setup)
-* [Usage](#usage)
-* [Project Status](#project-status)
-* [Room for Improvement](#room-for-improvement)
-* [Acknowledgements](#acknowledgements)
-* [Contact](#contact)
-* [License](#license)
+* [Setup and Dev-view](#setup-and-dev-view)
+* [License and Contact](#license-and-contact)
 
 ## Technologies Used
 - Next.js
@@ -38,10 +33,10 @@ Created by [@t-a-g-o](https://github.com/t-a-g-o)
 ![Example screenshot](./img/screenshot.png)
 
 
-## Setup & Dev-view
+## Setup and Dev-view
 1. Clone the repository
     ```sh
-    git clone https://github.com/tagoWorks/ascendara.git
+    git clone https://github.com/t-a-g-o/lumina.git
     ```
 
 2. Install requirements
@@ -54,7 +49,7 @@ Created by [@t-a-g-o](https://github.com/t-a-g-o)
     npm run dev
     ```
 
-## License & Contact
+## License and Contact
 This project is published under the [MIT License](./LICENSE)
 
 If you are interested in working together, or want to get in contact with me please email me at santiago@tago.works
