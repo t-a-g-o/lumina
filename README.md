@@ -41,12 +41,17 @@ Created by [@t-a-g-o](https://github.com/t-a-g-o)
     git clone https://github.com/t-a-g-o/lumina.git
     ```
 
-2. Install requirements
+2. Go into the lumina directory
+    ```sh
+    cd lumina
+    ```
+
+3. Install requirements
     ```sh
     npm install -r
     ```
 
-3. Run the live dev preview
+4. Run the live dev preview
     ```sh
     npm run dev
     ```
