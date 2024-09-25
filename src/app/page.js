@@ -104,9 +104,9 @@ export default function Home() {
               <div className="flex items-center">
                 <Image
                   src="/icon.svg"
-                  alt="tagoWorks Logo"
-                  width={18}
-                  height={18}
+                  alt="Logo"
+                  width={32}
+                  height={32}
                   className="mr-2"
                 />
                 <h1 className="text-3xl font-bold bg-clip-text">Lumina</h1>

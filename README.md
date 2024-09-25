@@ -1,4 +1,4 @@
-# Lumina Website Template
+# <img src="./readme/icon.png" width="32" height="32" alt="Lumina Logo"> Lumina Website Template
 Created by [@t-a-g-o](https://github.com/t-a-g-o)
 
 > Lumina is a sleek, modern website template designed for developers and tech professionals to showcase their skills and projects. With its dark theme and vibrant accents, NeonStack offers a visually striking platform for your digital portfolio.
@@ -8,7 +8,7 @@ Created by [@t-a-g-o](https://github.com/t-a-g-o)
 * [Technologies Used](#technologies-used)
 * [Features](#features)
 * [Screenshots](#screenshots)
-* [Setup and Dev-view](#setup-and-dev-view)
+* [Setup](#setup)
 * [License and Contact](#license-and-contact)
 
 ## Technologies Used
@@ -30,10 +30,12 @@ Created by [@t-a-g-o](https://github.com/t-a-g-o)
 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Showcase 1](./readme/showcase1.png)
+![Showcase 3](./readme/showcase3.png)
+![Showcase 2](./readme/showcase2.png)
 
 
-## Setup and Dev-view
+## Setup
 1. Clone the repository
     ```sh
     git clone https://github.com/t-a-g-o/lumina.git

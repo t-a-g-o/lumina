@@ -29,6 +29,7 @@ export default function JoinTeam() {
     }));
   };
 
+  // there is no function for submitting a form on the template, you must make your own.
   const handleSubmit = async (e) => {
       setFormData({ name: '', email: '', position: '', message: '' });
       setIsDialogOpen(true);
@@ -60,9 +61,9 @@ export default function JoinTeam() {
               <div className="flex items-center">
                 <Image
                   src="/icon.svg"
-                  alt="tagoWorks Logo"
-                  width={18}
-                  height={18}
+                  alt="Logo"
+                  width={32}
+                  height={32}
                   className="mr-2"
                 />
                 <h1 className="text-3xl font-bold bg-clip-text">Lumina</h1>
@@ -89,13 +90,13 @@ export default function JoinTeam() {
         <main className="space-y-16 py-12">
           <section className="text-center space-y-6 opacity-0" style={{ transform: "translateY(50px)" }}>
             <h2 className="text-4xl sm:text-5xl font-bold">
-              Join Our{" "}
+              Fill out a{" "}
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-300 to-purple-400">
-                Innovative Team
+                Form
               </span>
             </h2>
             <p className="text-lg sm:text-xl max-w-2xl mx-auto text-gray-300">
-              We're always looking for talented individuals to join our team. If you're passionate about what we do, please fill out the form below. If you would just like to make contributions, please check out our GitHub repositories.
+              Some text here about how your looking for people to join your team maybe, or anything else you want to let them know before filling out the contact form.  Submitting the form will do nothing.
             </p>
           </section>
 
@@ -150,7 +151,7 @@ export default function JoinTeam() {
                   ></textarea>
                 </div>
                 <ShimmerButton type="submit" className="w-full">
-                  Submit Application
+                  Submit The Form
                 </ShimmerButton>
               </form>
             </Card>
