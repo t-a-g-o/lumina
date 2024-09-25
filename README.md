@@ -1,4 +1,4 @@
-# <img src="./readme/icon.png" width="32" height="32" alt="Lumina Logo"> Lumina Website Template
+# <img src="./readme/icon.png" width="24" height="24" alt="Lumina Logo"> Lumina Website Template
 Created by [@t-a-g-o](https://github.com/t-a-g-o)
 
 > Lumina is a sleek, modern website template designed for developers and tech professionals to showcase their skills and projects. With its dark theme and vibrant accents, NeonStack offers a visually striking platform for your digital portfolio.
