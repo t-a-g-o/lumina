@@ -334,7 +334,11 @@ function ProjectCardContent({ project }) {
             </Badge>
           ))}
         </div>
-        <Link target="_blank" rel="noopener noreferrer" href={`/projects/${project.title.toLowerCase()}`}>
+
+        {/* Goes to a project page or redirect link. You can set up a redirect link in next.config.mjs */}
+        <Link target="_blank" rel="noopener noreferrer" href={`/project/${project.title.toLowerCase()}`}>
+
+
           <Button 
             variant={project.highlight ? "outline" : "ghost"}
             className={`w-full ${
